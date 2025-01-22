@@ -1,24 +1,47 @@
-# Microsoft_Cybersecurity_classifying_incidents
-A machine learning model used to classify cybersecurity incidents.
+# Microsoft: Classifying Cybersecurity Incidents with Machine Learning
+
+## Problem Statement
+Develop a machine learning model capable of accurately predicting the triage grade of cybersecurity incidents based on historical evidence and customer responses. The solution aims to:
+- Automate the triage process in SOCs.
+- Enable guided response systems to mitigate potential threats effectively.
+- Enhance enterprise security management by reducing false positives and ensuring prompt action on real threats.
+
+## Domain
+Cybersecurity and Machine Learning
+
+## Skills Acquired
+- **Data Preprocessing and Feature Engineering**
+- **Machine Learning Classification Techniques**
+- **Model Evaluation Metrics**: Macro-F1 Score, Precision, Recall
+- **Cybersecurity Concepts and Frameworks**: MITRE ATT&CK
+- **Handling Imbalanced Datasets**
+- **Model Benchmarking and Optimization**
+
+## Tools and Technologies
+- **Programming Language**: Python
+- **Libraries**: Pandas, NumPy, Scikit-learn, XGBoost, SHAP
+- **Visualization**: Matplotlib, Seaborn
+- **Dataset**: GUIDE dataset (`train.csv`, `test.csv`)
+
+## Approach
+
+### 1. Data Exploration and Understanding
+- Load and inspect the `train.csv` dataset. Perform Exploratory Data Analysis (EDA) to identify patterns, correlations, and anomalies.Address class imbalances.
+
+### 2. Data Preprocessing
+- Handle missing values using imputation or removal.Perform feature engineering, including timestamp-based features.Encode categorical variables using one-hot encoding or label encoding.
+
+### 3. Data Splitting
+- Split the data into training and validation sets using stratified sampling to maintain class distribution.
+
+### 4. Model Selection and Training
+- Establish a baseline with simple models (e.g., Logistic Regression).Experiment with advanced models like Random Forest, XGBoost, and Neural Networks.Use cross-validation for reliable performance estimation.
+
+### 5. Model Evaluation and Tuning
+- Evaluate models using **Macro-F1 Score**, **Precision**, and **Recall**.Address class imbalances using SMOTE or adjusting class weights.Perform hyperparameter tuning to optimize model performance.
+
+### 6. Final Evaluation on Test Set
+- Test the finalized model on `test.csv` and report evaluation metrics.Compare performance with the baseline model.
 
 
-Overview
 
-This project aims to classify cybersecurity incidents based on various features such as alert titles, incident categories, timestamps, IP addresses, and user accounts. The primary goal is to assist cybersecurity teams in quickly identifying, prioritizing, and responding to incidents based on their severity and nature.
-
-Project Structure
-
-data: Contains raw and processed data files.
-
-raw: Holds the original data files.
-processed: Stores cleaned and transformed data used for model training.
-notebooks: Jupyter notebooks for exploratory data analysis, model training, and evaluation.
-
-data_exploration.ipynb: Provides data exploration and visualization.
-model_training.ipynb: Covers model training, tuning, and evaluation.
-src: Contains the core Python scripts for data processing, training, and evaluation.
-
-data_preprocessing.py: Handles data cleaning, feature engineering, and encoding.
-model_training.py: Manages model training and hyperparameter tuning.
-evaluation.py: Calculates model metrics for assessing model performance.
-models: A folder to store trained models, including the final selected model.

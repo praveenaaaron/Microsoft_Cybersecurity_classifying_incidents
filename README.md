@@ -10,10 +10,9 @@ Develop a machine learning model capable of accurately predicting the triage gra
 Cybersecurity and Machine Learning
 
 ## Skills Acquired
-- **Data Preprocessing and Feature Engineering**
+- **Data Preprocessing**
 - **Machine Learning Classification Techniques**
 - **Model Evaluation Metrics**: Macro-F1 Score, Precision, Recall
-- **Cybersecurity Concepts and Frameworks**: MITRE ATT&CK
 - **Handling Imbalanced Datasets**
 - **Model Benchmarking and Optimization**
 

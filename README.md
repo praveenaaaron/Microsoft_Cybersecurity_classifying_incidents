@@ -33,7 +33,7 @@ Cybersecurity and Machine Learning
 - Split the data into training and validation sets using stratified sampling to maintain class distribution.
 
 ### 4. Model Selection and Training
-- Establish a baseline with simple models (e.g., Logistic Regression).Experiment with advanced models like Random Forest, XGBoost, and Neural Networks.Use cross-validation for reliable performance estimation.
+- Establish a baseline with simple models (e.g., Logistic Regression).Experiment with advanced models like Random Forest, XGBoosts.Use cross-validation for reliable performance estimation.
 
 ### 5. Model Evaluation and Tuning
 - Evaluate models using **Macro-F1 Score**, **Precision**, and **Recall**.Address class imbalances using SMOTE Perform hyperparameter tuning to optimize model performance.

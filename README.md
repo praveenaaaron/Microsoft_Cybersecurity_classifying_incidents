@@ -14,7 +14,6 @@ Cybersecurity and Machine Learning
 - **Machine Learning Classification Techniques**
 - **Model Evaluation Metrics**: Macro-F1 Score, Precision, Recall
 - **Handling Imbalanced Datasets**
-- **Model Benchmarking and Optimization**
 
 ## Tools and Technologies
 - **Programming Language**: Python

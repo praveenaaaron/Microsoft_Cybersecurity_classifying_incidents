@@ -36,7 +36,7 @@ Cybersecurity and Machine Learning
 - Establish a baseline with simple models (e.g., Logistic Regression).Experiment with advanced models like Random Forest, XGBoost, and Neural Networks.Use cross-validation for reliable performance estimation.
 
 ### 5. Model Evaluation and Tuning
-- Evaluate models using **Macro-F1 Score**, **Precision**, and **Recall**.Address class imbalances using SMOTE or adjusting class weights.Perform hyperparameter tuning to optimize model performance.
+- Evaluate models using **Macro-F1 Score**, **Precision**, and **Recall**.Address class imbalances using SMOTE Perform hyperparameter tuning to optimize model performance.
 
 ### 6. Final Evaluation on Test Set
 - Test the finalized model on `test.csv` and report evaluation metrics.Compare performance with the baseline model.

@@ -17,7 +17,7 @@ Cybersecurity and Machine Learning
 
 ## Tools and Technologies
 - **Programming Language**: Python
-- **Libraries**: Pandas, NumPy, Scikit-learn, XGBoost, SHAP
+- **Libraries**: Pandas, NumPy, Scikit-learn, XGBoost
 - **Visualization**: Matplotlib, Seaborn
 - **Dataset**: GUIDE dataset (`train.csv`, `test.csv`)
 
